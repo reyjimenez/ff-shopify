@@ -1,0 +1,8 @@
+development:
+  password: "d5b7050f31355c2490585df91a0862a7"
+  store: "fashion-frabics.myshopify.com"
+  theme_id: "193126852"
+  bucket_size: 40
+  refill_rate: 2
+
+  

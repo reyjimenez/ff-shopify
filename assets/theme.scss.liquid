@@ -7,7 +7,7 @@
     - You cannot use native CSS/Sass @imports in this file without a build script
 ==============================================================================*/
 
-/*================ SASS HELPERS ================*/
+/*================ SASS HELPERS ===============*/
 /*============================================================================
   Convert pixels to ems
   eg. for a relational value of 12px write em(12) when the parent is 16px
@@ -2240,6 +2240,9 @@ $dropdown-padding: 11px 17px;
 
   a {
     padding: 3px 10px;
+    color: #4b0049;
+    font-size: .9em;
+    font-weight: bold;
   }
 
   li {
@@ -4242,11 +4245,13 @@ $mobile-nav-button-padding: 15px;
   width: 100%;
   padding: $mobile-nav-button-padding;
   font-size: $font-size-mobile-input;
+  font-weight:bold;
 }
 
 .mobile-nav__link {
   position: relative;
-}
+  color: #4b0049;
+} 
 
 .mobile-nav__sublist-link:not(.mobile-nav__sublist-header) {
   padding-left: $return-button-width + $mobile-nav-button-padding;
@@ -5678,14 +5683,24 @@ $toolbar-height-small: 46px;
 
 /*================ HOME PAGE ================*/
 
+
+  @include media-query($large-up) {
+div.ss-2-col {  
+  width: 1100px;
+  margin: auto;
+}
+}
+
+
 .hp-ss-ad {  
   width: 100%;
   float:left;
 }
 
+
   @include media-query($medium-up) {
 .hp-ss-ad {  
-  width: 60%;
+  width: 70%;
 }
 }
 
@@ -5699,7 +5714,7 @@ $toolbar-height-small: 46px;
 
   @include media-query($medium-up) {
 .hp-ss-col-right {  
-  width: 40%;
+  width: 30%;
 }
 }
 

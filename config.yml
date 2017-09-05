@@ -1,7 +1,7 @@
 development:
-  password: "d5b7050f31355c2490585df91a0862a7"
-  store: "fashion-frabics.myshopify.com"
-  theme_id: "193126852"
+  password: "6e43f4e65c1321d3ad81cee06d0c3d28"
+  store: "fashionfabrics.myshopify.com"
+  theme_id: "179706381"
   bucket_size: 40
   refill_rate: 2
 

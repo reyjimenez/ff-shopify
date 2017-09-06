@@ -5697,10 +5697,15 @@ div.ss-2-col {
   float:left;
 }
 
-
-  @include media-query($medium-up) {
+  @include media-query($medium) {
 .hp-ss-ad {  
   width: 70%;
+}
+}
+
+  @include media-query($large) {
+.hp-ss-ad {
+  width: 60%;
 }
 }
 
@@ -5712,9 +5717,15 @@ div.ss-2-col {
 
 }
 
-  @include media-query($medium-up) {
+  @include media-query($medium) {
 .hp-ss-col-right {  
   width: 30%;
+}
+}
+
+  @include media-query($large) {
+.hp-ss-col-right {  
+  width: 40%;
 }
 }
 
